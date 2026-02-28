@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 import pickle
-filename = 'modelo-reg-redneuronal.pkl'
+filename = 'modelo.pkl'
 modelo, min_max_scaler,variables = pickle.load(open(filename, 'rb'))
 
 
