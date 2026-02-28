@@ -37,7 +37,7 @@ data['Predicción']=Y_pred
 data.head()
 
 data
-st.warning("El modelo tiene un error del 4%")
+st.warning("El modelo tiene un error del 3.8%")
 
 csv = data.to_csv(index=False).encode("utf-8")
 
